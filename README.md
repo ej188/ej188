@@ -1,38 +1,25 @@
-# Eunjae Yu
+## Hi there! Welcome to my GitHub 👋
 
-### Applied machine learning · Data science · Industrial data systems
+I’m interested in machine learning, statistics, mathematics, and the software systems that turn data into useful applications. My projects explore time-series forecasting, equipment-health modeling, anomaly detection, and applied AI.
 
-I connect operational data, predictive models, and the decisions they support. My work spans industrial sensor integration, equipment-health analysis, demand forecasting, and applied LLM workflows. I focus on understanding the data, making validation explicit, and explaining findings to technical and business stakeholders.
-
-I’m pursuing opportunities in data science, applied ML and AI engineering, and forward-deployed software engineering.
+Outside of studying and coding, I enjoy Brazilian Jiu-Jitsu (BJJ), Muay Thai, watching UFC, and weight lifting. I’ve joined the 1,000 lb club.
 
 ## Selected work
 
-| Project | My work | What to explore |
-| --- | --- | --- |
-| [Predictive Maintenance of Rotating Equipments](https://github.com/ej188/Predictive-Maintenance-of-Rotating-Equipments) | Developed an internship proof of concept from sensor and maintenance-data integration through RUL modeling and evaluation; presented it to C-suite and global reliability and maintenance leaders. | Operating-cycle analysis, complementary Random Forest strategies, near-failure evaluation, and the limits of a constructed reference target. |
-| [Demand Forecasting](https://github.com/ej188/Demand-Forecasting) | Implemented and iterated on multivariate shipment-demand forecasting with Temporal Fusion Transformers. | Temporal validation, hierarchical demand features, real-unit error analysis, and SARIMAX baseline context. |
-| [Predictive Maintenance of CNC Machine](https://github.com/ej188/Predictive-Maintenance-of-CNC-Machine) | Contributed industrial telemetry integration and developed coolant-conductivity forecasting and validation workflows. | MTConnect and IO-Link integration, SQL ingestion, residual diagnostics, and prediction intervals. |
-| [Anomaly Analysis](https://github.com/ej188/Anomaly-Analysis) | Documenting an independent study of anomaly-detection policies and LLM-based verification. | Evaluation design, calibration tradeoffs, and scenario-based verification plans. Work in progress. |
+From my latest work to earlier projects:
 
-## Internship proof of concept
-
-During my IT internship, I developed a predictive-maintenance proof of concept connecting industrial sensor history with maintenance events. I investigated equipment degradation, engineered temporal features, and developed regression strategies that combined historical operating cycles with current-cycle behavior.
-
-An important finding emerged during evaluation: aggregate agreement with the reference target concealed weaker performance near failure. I presented the proof of concept, its limitations, and priorities for stronger data and broader validation to executive and global engineering stakeholders.
-
-The [public case study](https://github.com/ej188/Predictive-Maintenance-of-Rotating-Equipments) explains my approach without company data, internal artifacts, or numerical results. It documents a proof of concept; production readiness and operational impact were not established.
+| Project | Focus |
+| --- | --- |
+| [Anomaly Analysis](https://github.com/ej188/Anomaly-Analysis) | An ongoing independent study of anomaly-detection calibration and LLM-assisted verification: precision–recall tradeoffs, decision thresholds, false-alarm analysis, and scenario-based evaluation. |
+| [Predictive Maintenance of Rotating Equipments](https://github.com/ej188/Predictive-Maintenance-of-Rotating-Equipments) | An internship proof of concept connecting sensor and maintenance data with temporal feature engineering, Random Forest regression, and remaining-useful-life modeling. Covers operating-cycle segmentation, near-failure error analysis, target validity, and presentation to executive and global engineering stakeholders. |
+| [Demand Forecasting](https://github.com/ej188/Demand-Forecasting) | Multivariate shipment-demand forecasting with Temporal Fusion Transformers and PyTorch Forecasting: hierarchical features, leakage-aware feature engineering, temporal holdout validation, real-unit error metrics, and SARIMAX baseline context. |
+| [Predictive Maintenance of CNC Machine](https://github.com/ej188/Predictive-Maintenance-of-CNC-Machine) | Industrial telemetry integration with MTConnect, IO-Link, MySQL, and Python, alongside coolant-conductivity forecasting. Includes SQL ingestion, residual diagnostics, autocorrelation analysis, and prediction-interval validation. |
 
 ## Technical focus
 
-- **Machine learning and forecasting:** Random Forest regression, Temporal Fusion Transformers, Prophet, and SARIMAX baseline work.
-- **Data engineering:** Python, SQL, sensor and event-data integration, cloud-warehouse analytics, MTConnect, and IO-Link.
-- **Statistical reasoning:** temporal validation, residual and autocorrelation analysis, prediction intervals, error slicing, and target-validity checks.
-- **Applied AI:** LLM classification prompt development and an ongoing study of anomaly verification.
-- **Delivery and communication:** problem framing, engineering collaboration, readable documentation, and executive presentation of a technical proof of concept.
+- **ML engineering & forecasting:** Python, Random Forest regression, Temporal Fusion Transformers, PyTorch Forecasting, Prophet, and SARIMAX; feature engineering, training workflows, and temporal model validation.
+- **Data science & statistics:** time-series analysis, regression, residual diagnostics, autocorrelation, prediction intervals, MAE/RMSE/WAPE, and error analysis across operating conditions.
+- **Data systems & software:** Python and SQL data pipelines, sensor/event-data integration, cloud-warehouse analytics, MTConnect and IO-Link interfaces, and modular forecasting and evaluation scripts.
+- **Applied AI & evaluation:** LLM classification prompts and an ongoing study of LLM-assisted anomaly verification, threshold calibration, precision–recall tradeoffs, and scenario-based testing.
 
-## How I approach a project
-
-I start with the operational question and the available evidence. I examine missingness, event definitions, and what information would be available at prediction time. I compare model behavior across relevant conditions, then communicate the findings, limitations, and next decisions.
-
-Each project distinguishes completed contributions from planned experiments. Public material emphasizes methods and reasoning while respecting the boundaries of private work.
+Company-related projects are documented through curated public summaries. Private data and internal artifacts are excluded; the rotating-equipment example uses synthetic values.
