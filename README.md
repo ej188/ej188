@@ -4,7 +4,7 @@
 
 I connect operational data, predictive models, and the decisions they support. My work spans industrial sensor integration, equipment-health analysis, demand forecasting, and applied LLM workflows. I focus on understanding the data, making validation explicit, and explaining findings to technical and business stakeholders.
 
-I’m pursuing opportunities in data science, applied ML and AI engineering, and forward deployed software engineering.
+I’m pursuing opportunities in data science, applied ML and AI engineering, and forward-deployed software engineering.
 
 ## Selected work
 
