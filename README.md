@@ -2,7 +2,7 @@
 
 I’m interested in machine learning, statistics, mathematics, and the software systems that turn data into useful applications. My projects explore time-series forecasting, equipment-health modeling, anomaly detection, and applied AI.
 
-Outside of studying and coding, I enjoy Brazilian Jiu-Jitsu (BJJ), Muay Thai, watching UFC, and weight lifting. I’ve joined the 1,000 lb club.
+Outside of studying and coding, I enjoy Brazilian Jiu-Jitsu (BJJ), Muay Thai, watching UFC, and weightlifting (I am in the 1000lbs club!).
 
 ## Selected work
 
